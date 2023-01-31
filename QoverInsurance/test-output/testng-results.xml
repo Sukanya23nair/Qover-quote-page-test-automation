@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="7" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42555" started-at="2023-01-31T19:34:55Z" finished-at="2023-01-31T19:35:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42555" started-at="2023-01-31T19:34:55Z" finished-at="2023-01-31T19:35:38Z">
+      <class name="com.qa.qover.tests.GetQuotePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.qover.tests.GetQuotePageTest@7a4ccb53]" name="setUp" is-config="true" duration-ms="16636" started-at="2023-01-31T19:34:55Z" finished-at="2023-01-31T19:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyquotGeneration_TheftandAssistance(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.qover.tests.GetQuotePageTest@7a4ccb53]" name="VerifyquotGeneration_TheftandAssistance" duration-ms="4257" started-at="2023-01-31T19:35:12Z" data-provider="testData" finished-at="2023-01-31T19:35:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Racing bike]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[450]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Equipped without GPS tracker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyquotGeneration_TheftandAssistance -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.qover.tests.GetQuotePageTest@7a4ccb53]" name="tearDown" is-config="true" duration-ms="1786" started-at="2023-01-31T19:35:16Z" finished-at="2023-01-31T19:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.qover.tests.GetQuotePageTest@7a4ccb53]" name="setUp" is-config="true" duration-ms="11893" started-at="2023-01-31T19:35:18Z" finished-at="2023-01-31T19:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyquotGeneration_TheftandAssistance(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.qover.tests.GetQuotePageTest@7a4ccb53]" name="VerifyquotGeneration_TheftandAssistance" duration-ms="3293" started-at="2023-01-31T19:35:30Z" data-provider="testData" finished-at="2023-01-31T19:35:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mountainbike]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Equipped without GPS tracker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyquotGeneration_TheftandAssistance -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.qover.tests.GetQuotePageTest@7a4ccb53]" name="tearDown" is-config="true" duration-ms="4493" started-at="2023-01-31T19:35:33Z" finished-at="2023-01-31T19:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.qover.tests.GetQuotePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

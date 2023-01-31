@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Qover automtion regression suite"
+	thread-count="3" parallel="tests" verbose="3">
+
+	<listeners>
+		<listener class-name="com.qa.qover.listeners.ExtentReportListener" />
+		
+	</listeners>
+
+	<test name="GetQuote Page Test">
+		<classes>
+			<class name="com.qa.qover.tests.GetQuotePageTest" >
+			 <methods>	 
+			 <include name="verifyGetQuotePageTitle" />
+                <include name="VerifyerrorMessage_BikeTypeDropdown" />
+                <include name="VerifyErrorMessage_InsuredValueFieldMinimumIP" />
+                <include name="VerifyErrorMessage_InsuredValueFieldMaximumIP" />
+                <include name="VerifyquotGeneration_Omnium" />
+                <include name="VerifyquotGeneration_TheftandAssistance" />   
+            </methods>
+            </class>         
+		</classes>
+	</test>
+</suite>

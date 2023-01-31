@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Qover automtion regression suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.qover.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="3" verbose="3" name="GetQuote Page Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.qover.tests.GetQuotePageTest">
+        <methods>
+          <include name="VerifyquotGeneration_TheftandAssistance" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.qover.tests.GetQuotePageTest -->
+    </classes>
+  </test> <!-- GetQuote Page Test(failed) -->
+</suite> <!-- Failed suite [Qover automtion regression suite] -->
