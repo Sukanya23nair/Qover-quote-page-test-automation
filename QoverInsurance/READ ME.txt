@@ -1,0 +1,6 @@
+
+
+*Install eclipse
+*Run the project as TestNG Test
+*Find the test report in the build folder 
+*Find the screenshots of the failed tests in the screenshots folder
